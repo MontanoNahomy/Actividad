@@ -1,0 +1,6 @@
+{
+  "mensaje_original": "Hola mundo",
+  "hash_sha256": "ca8f60b2cc7f05837d98b208b57fb6481553fc5f1219d59618fd025002a66f5c",
+  "hmac_sha256": "42488f170fc694ec2c87ec862d354523c3e8bcb78c39846aa334520175ab4514",
+  "descripcion": "Este archivo contiene el mensaje original, su hash SHA-256 y el HMAC generado usando una clave secreta compartida."
+}
