@@ -5,7 +5,7 @@ const fs = require('fs');
 // Mensaje a enviar
 const mensaje = "Hola mundo";
 // Clave secreta compartida (simulada)
-const claveSecreta = "clave123";
+const claveSecreta = "Nahomy1128";
 
 // Función para generar el hash SHA-256 del mensaje
 function generarHash(mensaje) {
@@ -33,4 +33,6 @@ const mensajeConHash = {
 fs.writeFileSync('mensaje_con_hash.json', JSON.stringify(mensajeConHash, null, 2));
 
 console.log(" Mensaje enviado (archivo mensaje_con_hash.json creado).");
+
+
  

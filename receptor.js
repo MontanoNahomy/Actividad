@@ -3,7 +3,7 @@ const crypto = require('crypto');
 const fs = require('fs');
 
 // Clave secreta compartida (debe coincidir con la del emisor)
-const claveSecreta = "clave123";
+const claveSecreta = "Nahomy1128";
 
 // Función para generar hash
 function generarHash(mensaje) {
